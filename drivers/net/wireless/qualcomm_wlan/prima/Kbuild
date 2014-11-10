@@ -7,7 +7,7 @@ else
 endif
 
 
-BUILD_HTC_DRIVER_IN_KERNEL ?= n
+BUILD_HTC_DRIVER_IN_KERNEL ?= y
 
 ifeq ($(BUILD_HTC_DRIVER_IN_KERNEL),y)
 WLAN_ROOT := drivers/net/wireless/qualcomm_wlan/prima
